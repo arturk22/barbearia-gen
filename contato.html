@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width initial-scale=1.0">
+        <title>Contato | Personal</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/base.css">
+        <link rel="stylesheet" href="css/cabecalho.css">
+        <link rel="stylesheet" href="css/chamada.css">
+        <link rel="stylesheet" href="css/rodape.css">
+        <link rel="stylesheet" href="css/pag-contato.css">
+    </head>
+    <body>
+        <header class="cabecalho container">
+            <img src="img/logo-personal.png" alt="Logo do personal" class="cabecalho_logo" width="50%">
+            <nav class="cabecalho_navegacao">
+                <ul>
+                    <li class="cabecalho_link"><a href="index.html">Home</a></li>
+                    <li class="cabecalho_link"><a href="contato.html">Contato</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section class="chamada container">
+                <h1 class="chamada_titulo">Mude Sua Vida</h1>
+                <p class="chamada_texto">Nosso grupo tem um jeito inovador de acompanhar e montar rotinas para todos os tipos de pessoas, sempre visando seu ápice físico.</p>
+                <a href="index.html #planos" class="chamada_botao botao">Conheça os planos</a>
+            </section>
+            <form>
+                <label for="nomeSobrenome"> Nome e Sobrenome:</label>
+                <input type="text" id="nomeSobrenome" class="input-padrao" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" class="input-padrao" required placeholder="seuemail@dominio.com">
+
+                <label for="telefone">Telefone:</label>
+                <input type="tel" id="telefone" class="input-padrao" required placeholder="(xx) xxxxx-xxxx">
+
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" cols="64" rows="10" class="input-padrao" required></textarea>
+
+                <fieldset>
+                    <legend>Como prefere o nosso Contato?</legend>
+                    <label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email">Email</label>
+                    
+
+                    <label for="radio-telefone"><input type="radio" name="contato" value="telefone" id="radio-telefone">Telefone</label>
+                    
+
+                    <label for="radio-whatsapp"><input type="radio" name="contato" value="whatsapp" id="radio-whatsapp" checked>WhatsApp</label>
+                    
+                </fieldset>  
+
+                <fieldset>
+                    <legend>Qual horário prefere ser atendido?</legend>
+                    <select>
+                        <option>Manhã</option>
+                        <option>Tarde</option>
+                        <option>Noite</option>
+                    </select>
+                </fieldset>
+                <label class="checkbox"><input type="checkbox" checked> Gostaria de receber nossas novidades por e-mail?</label>
+
+                <input type="submit"  value="Enviar Fomulário" class="enviar">
+            </form>
+        </main>
+        <footer class="rodape container">
+            <img src="img/logo-personal.png" alt="Logo do personal" class="rodape__logo" width="40%">
+            <ul class="rodape__social">
+                <li><a href="#" class="rodape__midia"><img src="img/facebook.png" alt="Ícone do Facebook"></a></li>
+                <li><a href="#" class="rodape__midia"><img src="img/instagram.png" alt="Ícone do Instagram"></a></li>
+            </ul>
+            <nav>
+                <ul class="rodape__navegacao">
+                    <li class="rodape__link"><a href="index.html #planos">Planos</a></li>
+                    <li class="rodape__link"><a href="index.html #destaques">Destaques</a></li>
+                    <li class="rodape__link"><a href="index.html #institucional">Institucional</a></li>
+                    <li class="rodape__link"><a href="contato.html">Contato</a></li>
+                </ul>
+            </nav>
+        </footer>
+    </body>
+</html>
