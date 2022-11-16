@@ -17,16 +17,16 @@
     padding: 2rem 0 2rem 5rem;
 }
 
-.diferenciais__item--tempo{
-    background-image: url(../img/peso.png);
+.diferenciais__item--espaco{
+    background-image: url(../img/espaço.png);
 }
 
-.diferenciais__item--foco{
-    background-image: url(../img/coração.png);
+.diferenciais__item--atendimento{
+    background-image: url(../img/atendimento.png);
 }
 
 .diferenciais__item--especialistas{
-    background-image: url(../img/ficha.png);
+    background-image: url(../img/tesoura.png);
 }
 
 .item__titulo {
