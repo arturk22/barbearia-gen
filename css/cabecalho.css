@@ -18,7 +18,7 @@
 }
 
 .cabecalho_logo {
-    margin-bottom: 1rem;
+    margin-bottom: 1em;
 }
 
 .cabecalho_navegacao {
@@ -45,7 +45,7 @@
     }
 
     .cabecalho_logo{
-        width: 10%;
+        width: 30%;
     }
 
 }
