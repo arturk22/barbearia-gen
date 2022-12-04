@@ -19,6 +19,7 @@
 
 .cabecalho_logo {
     margin-bottom: 1em;
+    width: 50%;
 }
 
 .cabecalho_navegacao {
@@ -45,7 +46,7 @@
     }
 
     .cabecalho_logo{
-        width: 30%;
+        width: 20%;
     }
 
 }
